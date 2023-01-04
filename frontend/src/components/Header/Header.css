@@ -1,0 +1,74 @@
+.header__con{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header__h1{
+font-weight: bold;
+font-size: 2.5rem;
+
+}
+
+.header__p{
+    font-size: 1.2rem;
+    color: grey;
+}
+
+.header__img{
+    width: 100%;
+
+}
+
+.header__input{
+    display: inline-block;
+    padding: 1.5rem 3rem;
+    margin-right: 0rem;
+    width: 100%;
+    flex: 1 1 0%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.45;
+    color: rgb(51, 51, 51);
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 0px;
+    text-overflow: ellipsis;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    border-radius: 0px;
+    outline-style: none;
+}
+
+.input__con{
+    position: relative;
+    box-shadow: rgb(0 0 0 / 13%) 0px 2px 4px 0px;
+    border-radius: 8px;
+    border: 1px solid rgb(223, 223, 223);
+}
+
+.header__button{
+    color: rgb(51, 51, 51);
+    background-color: rgb(255, 194, 0);
+    border: rgb(255, 194, 0);
+    display: inline-block;
+    font-size: 0.875rem;
+    font-weight: 700;
+    border-radius: 8px;
+    line-height: 1.5;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    transition: color 0.15s ease-in-out 0s, background-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    padding: 1rem;
+    appearance: none !important;
+    margin-right: 1rem;
+}
+
+.header__icon{
+    position: absolute;
+    left: 1.2rem;
+    bottom: 1.4rem;
+    font-size: 1.3rem;
+    color: grey;
+}

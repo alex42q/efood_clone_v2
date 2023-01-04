@@ -1,0 +1,23 @@
+.download__container{
+    position: absolute;
+    top: 35rem;
+    left: 50%;
+    transform: translate(-50%);
+    box-shadow: 2px 4px 8px 0 rgb(0 0 0 / 8%);
+    background-color: white;
+    padding: 0rem;
+    width: 67%;
+}
+
+.download__h2{
+    font-weight: bold;
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+
+.download__p{
+    color: #9b9b9b ;
+    font-weight: 400!important;
+    margin-top: 0.75rem!important;
+    margin-bottom: 1.4rem!important;
+}

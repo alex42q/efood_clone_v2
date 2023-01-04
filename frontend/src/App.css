@@ -1,0 +1,24 @@
+.offers__section{
+  background-color: #f7f7f7;
+padding-top: 5rem;
+  padding-bottom: 15rem;
+}
+
+.offers__h5{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.offers__span{
+  font-size: 2.1rem;
+  color: #00bc8b ;
+  background-color: #d1eedd;
+  padding: 0.3rem;
+  border-radius: 5px;
+}
+
+.offers__con{
+  flex: 0 0 25%;
+
+  margin: 0rem 0rem;
+}

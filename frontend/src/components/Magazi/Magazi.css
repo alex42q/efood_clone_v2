@@ -1,0 +1,33 @@
+.offers__image_magazi{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    
+}
+
+.offers__image__magazi_close {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    filter: grayscale(100%);
+}
+
+.offers__textsCon{
+    max-width: 85%;
+    color: grey;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.offers__h5Text{
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.magaziCon{
+    background-color: white;
+    padding: 1rem;
+}
+

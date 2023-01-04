@@ -1,0 +1,40 @@
+.filters__section__con{
+
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 25%;
+    position: sticky;
+    top: 90px;
+    max-width: 25%;
+    padding: 1rem;
+    align-self: flex-start;
+    max-height: calc(100vh - 90px);
+    overflow-y: auto;
+}
+
+.results__section__con{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin: 0px auto;
+    padding: 0px 1rem 10rem;
+    flex: 0 0 992px;
+    margin: 110px auto 0px 0px;
+    max-width: 992px;
+    background-color: rgb(247, 247, 247);
+}
+
+.searchPage__baseCon{
+    min-height: calc(100vh - 90px);
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    justify-content: center;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.baseSearchCon{
+    background-color: rgb(247, 247, 247);
+    
+}

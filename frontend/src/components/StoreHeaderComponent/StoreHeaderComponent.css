@@ -1,0 +1,72 @@
+.storeHeaderMainCon{
+    background-color: white;
+    padding: 1rem;
+    margin-top: 5.7rem;
+    border-radius: 5px;
+}
+
+.store__header__h2{
+    font-size: 1.5rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.store__star{
+    width: 14px;
+    height: 14px;
+    color: rgb(255, 194, 0);
+}
+
+.store__mo{
+    margin-left: 0.45rem;
+    margin-top: 0.12rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: rgb(255, 194, 0);
+
+}
+
+.store__rank{
+    margin-left: 0.25rem;
+    font-size: 0.75rem;
+    color: rgb(155, 155, 155);
+}
+
+.store__category__h5__header{
+    font-weight: 700;
+    max-width: 110px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    flex-shrink: 1;
+    font-size: 0.75rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+    background-color: transparent;
+    color: inherit;
+    text-decoration: none;
+    color: rgb(155, 155, 155);
+}
+
+.store__elaxisti{
+    color: rgb(155, 155, 155);
+    display: flex;
+    min-width: 0px;
+    font-size: 0.75rem;
+    content: "•";
+    display: inline-block;
+    color: rgb(155, 155, 155);
+    margin: 0px 0.25rem;
+    font-weight: 400;
+    
+}
+
+.store__img{
+    display: inline-block;
+    background: rgb(155, 155, 155);
+    border: none;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+}
